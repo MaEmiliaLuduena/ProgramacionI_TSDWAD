@@ -1,0 +1,22 @@
+PROGRAMACIÓN
+
+AND
+Es decir que en el And, con que un solo num sea 1 es true.
+
+&
+Se hace bit a bit la comparación.
+
+Ver sistemas de numeraciones: binario, hexadecimal, octagonal.
+
+La variable flag es lo que también se llama la máscara.
+
+Para saber si el numero q tengo es par o impar sin usa mod 2:
+si la ultima posición es 1 es impar si es 0 es par.
+
+alt 94 ^
+
+alt 126 ~
+
+
+Cuando se hace en bitwise << o >>
+el ultimo dígito que se pasa del límite de la derecha se ignora, para la izquierda se arega el 0.

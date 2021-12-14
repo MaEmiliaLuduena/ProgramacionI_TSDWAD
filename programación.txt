@@ -1,0 +1,276 @@
+EN PYTHON
+La Lista [] la agrego, la modificio, y la cambio.
+La tupla () no, tengo q eliminarlos. No es editable.Internamente no necesita hacen controles, se las maneja, se la recorre más rápido que una Lista.
+El diccionario {}
+Conjunto [] a la vista son corchetes pero internamente no.
+La lista es un arreglo y cada elemento dentro de ésta puede ser distinto(enteros, flotantes, boolean, string).
+Si ponemos el asterisco antes del nombre del arreglo, lo que hace el asterisco es imprimir tal cual la lista sin paréntesis, y sin coma.
+Ej: print (*b) va a mostrar: 5123, si es que el arreglo es  b= [5,1,2,3]
+Puedo reemplazar un elemento con otro tipo de dato en la lista. Ejemplo un entero por un False.
+Puedo definir una lista como vacía también: [2,1,[],3]  b[2]= []
+lend se puede usar para contar la cantidad de elementos dentro de la lista: len(b) va a mostrar 4; len("este es un mensaje largo")  esto va a mostrar 24 elementos, porque cada letra la cuenta como un caracter.
+Métodos se reconocen porque son los que están después de un "." :
+- b.append : estoy por agregar un elemento, y en las listas se agrega al final. 
+Ejemplo: b.append(10)
+print(b)
+en pantalla se verá: [5,1,99,3,10]
+len(b)
+se va a mostrar: 5
+- b.insert: puedo agregar le elemento en cualquier lugar. Me pide 2 parámetros, el primero es dónde lo voy a agregar, y el segundo qué elemento voy a poner.
+Ejemplo: 
+
+b.insert (5,100)
+print(b)
+[5,1,99,3,10,100]
+len(b)
+va a mostrar: 6
+
+b.insert (2,98)
+va a mostrar: [5,1,98,99,3,10,100]
+len(b)
+7
+
+si yo quiero buscar el último elemento escribo:
+print(b[-1])
+100
+print(b[-5])
+98
+
+cuando se suman listas se concatenan elementos, no se suman entre sí haciendo operaciones.
+
+- del: se usa para eliminar un elemento.
+del b[2]
+print (b)
+[5,1,99,3,10,100]
+
+del b (sin parentesis)
+me borra toda la lista y me va a decir que la lista no está definida.
+
+b[1:3] me va a mostrar. Los : significan "desde tal elemento hasta"
+
+si pongo al final :-1 me muestra el anteultimo, porque el ultimo no lo pone.
+si pongo b[3:] sin nada del otro lado me muestra toda la lista. Si no agrego nada del lado izquierdo me muestra todo desde izquierda hasta el número de elemento q pongamos.
+
+si no dejo nada: b[:] hago una lista nueva de memoria.
+
+De la misma forma trabaja la tupla, pero no puedo modificarle valor, ni eliminarle valor.
+
+
+
+[1,99,3]
+
+
+No puede existir una variable y una función con el mismo nombre.
+
+HACER EJERCICIOS DE PROGRAMACION DEL LABORATORIO 3, CIERRA EL 22 DE ABRIL.!!!!!!
+
+Hay 4 formas de hacer la negación en binario: en base, complemento 1, complemento 2, y falta uno.
+Dentro de los paréntesis van los parámetros. Un parámetro es una variable.
+Lo que se encuentra dentro de los parámetros se denominan argumentos.
+La palabra clave es el nombre usado en el parámetro.
+En las funciones el print hace algo, y el return devuelve la operación que se pide en el print.
+La invocación tiene q tener la misma cantidad de argumentos q de parámetros.
+La posicion que yo definí en un principio, esa es la posición en que se van a dar los valores, sino tengo que usar la palabra clave, es decir, se va a asignar por defecto si se deja vacío esa posición en el parámetro.
+
+
+La función me permite hacer algo, o me devuelve algo, por ejemplo me puede devolver un print.
+La instruccion return la utilizo para terminar la funcion antes del código.
+
+30 DE ABRIL
+
+Ambito: la funcion print solo me va a funcionar si esta puesto dentro de la funcion, es decir si es local a la funcion. Sino no va a leer la variable, si se pone fuera de la funcion. Es decir no esta identado dentro de la funcion, no la lee.
+
+Se puede encontrar de esta manera la variable global, como la variable local (la local es la que está definida dentro de la función) (la global está definida en todo el resto del programa en general).
+Toda alteración o asignación de variable es local.
+
+argumento es cuando se usa la funcion
+parametros es al definir la funcion
+
+
+7 DE MAYO
+
+31 DE JULIO FECHA FINAL HASTA LA QUE DURA LA PLATAFORMA CISCO! LEER TODOOO Y HACER LABORATORIOS!!!!!!
+
+La tupla no la puedo modificar, por lo tanto es inmutable, es decir una vez que la defino no la puedo modificar. 
+La unica forma de modificarla es eliminandola y haciendo una nueva.
+La lista es con corchetes y la tupla con parentesis.
+TUPLA: Si estoy trabajando con un solo elemento le tengo q poner una coma para que tome el numero entero: tuplaUno(6, ). Si no le pongo la coma la va a interpretar como una variable común y corriente. También se puede definir sin paréntesis.
+Y sino la unica forma de agregar un elemento es aplicando acumulador, es decir tupla= tupla + (5, )
+Los elementos de la tupla pueden ser de distinto tipo: cadena, entero, punto flotante, etc.
+Tanto en la lista como en la tupla, cuando la recorro, el ultimo elemento no se cuenta, no se tiene en cuenta, no lo pongo en la ejecución.
+En la tupla tambien se pueden utilizar variables. Es decir, usa el valor de la variable, no la variable en sí.
+Las cosas que se usan con tuplas se hacen mas rapido que con lista.?? Revisar conceptos.
+
+La lista es secuencial y mutable.
+Las tuplas son secuenciales e inmutables.
+El diccionario es una secuencia de PARES. NO es secuencia, pero si es mutable.
+En el diccionario tengo clave=valor. Y son en un solo sentido. No puedo de valor buscar la clave.
+En el diccionario se usan llaves {}
+Entre llave y valor se separan con : {jefe : 55513666}
+Los pares valores pueden ser de cualquier tipo.
+El valor puede ser cualquier tipo, incluso una lista, una tupla, otro diccionario, objetos.
+Al poner un valor lógico sólo se podria utilizar dos veces (true, false) ya que los valores no se pueden repetir. (en el diccionario)
+ 
+7 DE MAYO
+
+Los métodos, a diferencia de las funciones, se aplican usando punto y el nombre del método a el tipo de dato o variable con la que esté trabajando.
+Es decir se pone la variable primero, el punto y el método al que vamos a llamar. Si fuera una función va sin punto y sin la variable adelante.
+El método siempre se aplica a un dato.
+
+En la clase el profe hizo una corrección de la traducción de Cisco (es columnas en vez de filas, buscar después y corregir).
+
+
+
+
+#lst = [1, 2]
+
+#for v in range (2):
+    #lst.insert(-1, lst[v])
+
+#print(lst)
+
+#nums= [1, 2, 3]
+#vals=nums
+
+
+
+
+#def func1(a):
+ #   return None
+#def func2(a):
+ #   return func1(a) * func1(a)
+#print(func2(2))
+
+
+
+#def func(a, b):
+ #   return b ** a
+#print(func(b=2, 2))
+
+
+
+#z=0
+#y=10
+#x= y<z and z > y or y > z and z< y
+#print (x)
+
+#list= [x *x for x in range (5)]
+#def fun(lst):
+  #  del lst[lst[2]]
+ #   return lst
+
+#print(fun(list))
+
+
+#x=1
+#y=2
+#x, y, z = x, x, y
+#z, y, z= x, y, z
+#print(x,y,z)
+
+
+#a=1
+#b=0
+#a= a ^ b
+#b= a ^ b
+#a = a^b
+#print(a,b)
+
+
+def fun(x):
+    if x %2 ==0:
+        return 1
+    else:
+        return 2
+print(fun(fun(2)))
+
+dct={'uno':'dos', 'tres':'uno','dos':'tres'}
+v=dct['tres']
+for k in range (len(dct)):
+    v=dct[v]
+
+print(v)
+
+
+def fun(x, y):
+    if x == y:
+        return x
+    else:
+        return fun (x, y-1)
+print (fun(0,3))
+
+lst= [[x for x in range (3)] for y in range(3)]
+for r in range (3):
+    for c in range(3):
+        if lst[r][c] % 2 !=0:
+            print("#")
+-------------------------------------------------
+4 DE JUNIO
+MÓDULO 5
+Los codigos son flexibles, van creciendo y se va generando una complejizacion del código.
+Cómo se maneja esta complejidad? Uno de los mecanismos es dividir los problemas, las tareas, y después unir todasa esas partes para terminar de hacer el programa.
+Principalmente se puede dividir en 2 partes: 
+-Interfaz del usuario
+-Lógica
+Cada una de esas partes se pueden dividir en partes más chiquitas. (descomposición)
+Una forma de imprelemntar una formula compleja es a través de módulos.
+
+Cuando trabajmos con modulos, podemos encararlo desde 2 partes.
+Un modulo consta de distintas entidades: funciones, variables, constantes, clases y onjetos.
+Es un código fuente más de Python, los módulos.
+Cómo se usan los modulos?
+Hay que llamarlo, hay que decirle explicitamente a Pyhon que lo llamen. Hay que importarlo con la palabra clave "import".
+Tenemos 3 formas de hacer importancion de un modulo: (y tengo variantes para llamarlas)
+1- import math: le digo a python importá el modulo math y con eso todo lo q yo trabaje.
+Esto importa dos modulos:
+-import sys:
+-import math, sys
+
+El espacio de trabajo (namespace) es toda la aplicación.
+Los módulos son programas también en Python.
+Cada modulo tiene su espacio de nombre que es independiente al de otro modulo y al de mi programa.
+Lo de import con el resto de las funciones de mi programa no se pisan si una es definida después de la otra.
+Si quiere trabajar con una variable que esta fuera del mi import, de mi namespace, tengo que poner el nombre del import seguido de un punto y la varialbe (Ej: m1.x)
+
+Sobrecarga: definir dos funciones con el mismo nombre, una con parámetro, y otra sin.?
+
+Otra forma de meter importación es: from math import pi (del modulo matematica importa pi).
+Con from math import *: este asterisco me permite traer todo lo del modulo.
+
+
+5.1.2.10 en adelante es toda teoría eso.
+En la prox hablamos de modulos y paquetes.
+
+11 de JUNIO
+5.1.3.5
+
+En un modulo, los archivos tienen que estar dentro de una carpeta, esto cuando se lo importa como from modulo o import modulo.
+
+Cuando trabajo con uno que viene dado con python no me pide que tenga todas las carpetas dentro de un archivo.
+
+18 DE JUNIO
+
+Los PAQUETES son conjuntos de Módulos.
+Python los maneja, a los modulos como un archivo.
+
+Toda parte del codigo que sea ejecucion se hace al principio del modulo.
+
+25 DE JUNIO
+
+Cuando python detecta una exepción no tratada python detiene el programa., y el programa entero falla.
+Por eso es importante tratar bien las excepciones.
+El except solo, toma cualquier tipo de excepción, pero no vamos a saber cuáñ fue el error.
+
+8 DE JULIO
+
+-Los objetos son instancias. 
+-Cuando creo una clase y la uso se dice que estoy haciendo una instanciación de esa clase. Creo una instancia en memoria de esa clase, y esa instancia es lo que llamamos objeto.
+-Por lo tanto cuando hablo de objeto, es una clase que se crea y se coloca en memoria. La clase es la definición, y el objeto es el uso de esa clase.
+
+get sirve para mostrar los datos, para que los traiga; y y set para modificar los datos.
+
+
+
+
+
+
